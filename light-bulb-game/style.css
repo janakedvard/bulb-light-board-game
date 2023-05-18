@@ -1,0 +1,21 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td {
+    width: 50px;
+    height: 50px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.lightbulb{
+    background-image: "lightbulb.png";
+    size: 50% 50%;
+}
+.timer{
+    font-size: medium;
+    text-align: center;
+}

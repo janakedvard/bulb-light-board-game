@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="button" id="descButton" value="Description">
+    <br>
+    <span id = "description" style="display:none">Leírás</span>
+    <p>Enter your name:</p> 
+    <input type="text" id="username">
+    <span id = "usernameSpan"></span>
+    <label for="difficulty"> Select game difficulty</label>
+    <select name="difficulty" id = "difficulty">
+        <option value="easy"> Easy</option>
+        <option value="intermediate"> intermediate </option>
+        <option value="hard">hard</option>
+    </select>
+    <input type="button" id="choose" value="Load game">
+    <br>
+    <span id="time" class="timer"></span>
+    <table id="table"></table>
+    <span id="result" >  </span>
+    <script src="script.js"></script>
+</body>
+</html>
